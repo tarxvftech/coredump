@@ -1,0 +1,87 @@
+
+body {
+	font-family: monospace;
+	margin: 0;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 250px auto 1fr;
+	grid-template-rows: auto 1fr;
+	height: 100vh;
+	gap: 20px;
+}
+#cy {
+	grid-column: 3;
+	grid-row: 1 / span 2;
+	border: 5px dashed red;
+}
+#sources {
+	grid-column: 1;
+	grid-row: 1 / span 2;
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+	overflow-y: auto;
+}
+
+#controls {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+#packets {
+	grid-column: 2;
+	grid-row: 2;
+	overflow-y: auto;
+}
+
+.packet {
+	border: 1px solid #eee;
+	margin: 5px 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.packet:hover {
+	background-color: #f0f0f0;
+}
+
+.packet.selected {
+	background-color: #e0e0e0;
+}
+
+.packet-details {
+	display: none;
+	padding: 10px;
+	background-color: #f8f8f8;
+}
+
+.source-item {
+	padding: 5px;
+	cursor: pointer;
+}
+
+.source-item:hover {
+	background-color: #f0f0f0;
+}
+
+.source-item.active {
+	background-color: #e0e0e0;
+}
+
+#hex-dump {
+	font-family: monospace;
+	white-space: pre;
+}
+
+.status {
+	padding: 5px;
+	margin: 5px 0;
+	border-radius: 3px;
+}
+
+.status.connected {
+	background-color: #90EE90;
+}
+
+.status.disconnected {
+	background-color: #FFB6C1;
+}

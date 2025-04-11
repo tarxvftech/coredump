@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CoreDump</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.31.2/cytoscape.min.js" integrity="sha512-Rjwq+hpL29wg7pieBf5SnXryZHHVSPZ75BtfgoBQJWvFOeh2j34AmAObOri1S51J1MdrW/gesC1kBejhOzvU6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--
+    <script src="https://unpkg.com/cytoscape@3.31.2/dist/cytoscape.min.js"></script>
+    -->
+    <script src="https://unpkg.com/klayjs@0.4.1/klay.js"></script>
+    <script src="https://unpkg.com/cytoscape-klay@3.1.4/cytoscape-klay.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="sources">
+        <h3>Capture Sources</h3>
+        <div id="connection-status" class="status">Connecting...</div>
+        <div id="source-list"></div>
+    </div>
+    
+    <div id="controls">
+        <button onclick="toggleLiveUpdate()">Toggle Live Updates</button>
+        <button onclick="clearPackets()">Clear</button>
+        <input type="text" id="filter" placeholder="Display filter" onkeyup="applyFilter(event)">
+        <span id="packet-count">0 packets</span>
+    </div>
+    <div id="packets"></div>
+    <div id="cy">
+        Cy here
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
