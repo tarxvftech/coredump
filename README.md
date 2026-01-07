@@ -73,9 +73,7 @@ over. So. OpenObserve and packet captures in one place will be good.-->
 
 or see the video:
 
-https://github.com/tarxvftech/coredump/raw/refs/heads/master/docs/2025-04-11_04-42-37.mp4
-
-https://github.com/tarxvftech/coredump/blob/master/docs/2025-04-11_04-42-37.mp4
+<video src="./docs/2025-04-11_04-42-37.mp4" controls width="600"></video>
 
 
 ## Suggested improvements
