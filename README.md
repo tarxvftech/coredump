@@ -73,7 +73,7 @@ over. So. OpenObserve and packet captures in one place will be good.-->
 
 or see the video:
 
-<video src="./docs/2025-04-11_04-42-37.mp4" controls width="600"></video>
+![avif](docs/demo.webp)
 
 
 ## Suggested improvements
