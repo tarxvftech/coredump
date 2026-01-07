@@ -68,6 +68,13 @@ am done with tabbing through five workspaces and a billion terminals
 -w, scp it back home, open that in wireshark, and repeat over and
 over. So. OpenObserve and packet captures in one place will be good.-->
 
+## What it looks like
+![Demo screenshot](./docs/2026-01-06-230153_1897x952_scrot.png)
+
+or see the video:
+
+https://github.com/tarxvftech/coredump/blob/main/assets/docs/2025-04-11_04-42-37.mp4
+
 
 ## Suggested improvements
 - View packets on a timeline, and scroll through them or play forward/back
